@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		A77632B72CC532B600164DFC /* HydrateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77632B62CC532B600164DFC /* HydrateApp.swift */; };
-		A77632B92CC532B600164DFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77632B82CC532B600164DFC /* ContentView.swift */; };
 		A77632BB2CC532B900164DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77632BA2CC532B900164DFC /* Assets.xcassets */; };
 		A77632BE2CC532B900164DFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77632BD2CC532B900164DFC /* Preview Assets.xcassets */; };
+		A77632C52CC544B000164DFC /* Weight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77632C42CC544B000164DFC /* Weight.swift */; };
+		A77632C72CC5451600164DFC /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77632C62CC5451600164DFC /* Notification.swift */; };
+		A77632CD2CC6938100164DFC /* waterTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77632CC2CC6938100164DFC /* waterTracker.swift */; };
+		A7FB80C52CC705EF008370EB /* Calculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FB80C42CC705EF008370EB /* Calculation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A77632B32CC532B600164DFC /* Hydrate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hydrate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A77632B62CC532B600164DFC /* HydrateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrateApp.swift; sourceTree = "<group>"; };
-		A77632B82CC532B600164DFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A77632BA2CC532B900164DFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A77632BD2CC532B900164DFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A77632C42CC544B000164DFC /* Weight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weight.swift; sourceTree = "<group>"; };
+		A77632C62CC5451600164DFC /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		A77632CC2CC6938100164DFC /* waterTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterTracker.swift; sourceTree = "<group>"; };
+		A7FB80C42CC705EF008370EB /* Calculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				A77632B62CC532B600164DFC /* HydrateApp.swift */,
-				A77632B82CC532B600164DFC /* ContentView.swift */,
+				A77632C42CC544B000164DFC /* Weight.swift */,
+				A77632C62CC5451600164DFC /* Notification.swift */,
+				A77632CC2CC6938100164DFC /* waterTracker.swift */,
+				A7FB80C42CC705EF008370EB /* Calculation.swift */,
 				A77632BA2CC532B900164DFC /* Assets.xcassets */,
 				A77632BC2CC532B900164DFC /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A77632B92CC532B600164DFC /* ContentView.swift in Sources */,
 				A77632B72CC532B600164DFC /* HydrateApp.swift in Sources */,
+				A77632C52CC544B000164DFC /* Weight.swift in Sources */,
+				A77632CD2CC6938100164DFC /* waterTracker.swift in Sources */,
+				A77632C72CC5451600164DFC /* Notification.swift in Sources */,
+				A7FB80C52CC705EF008370EB /* Calculation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

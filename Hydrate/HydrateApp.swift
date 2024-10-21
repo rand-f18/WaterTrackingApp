@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct HydrateApp: App {
+    @StateObject private var waterIntakeModel = WaterIntakeModel() // Create the model instance
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(waterIntakeModel) // Pass the model to the environment
         }
     }
 }
