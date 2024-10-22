@@ -23,25 +23,25 @@ struct Notification: View {
             Text("Notification Preferences")
                 .bold()
                 .font(.system(size: 22))
-                .padding(.trailing, 110)
+                .padding(.trailing, 115)
                 .padding(.bottom, 10)
                 .padding(.top, 30)
             
             Text("The start and End hour")
                 .bold()
-                .padding(.trailing, 170)
+                .padding(.trailing, 175)
                 .padding(.bottom, 5)
             
             Text("Specify the start and end date to receive the notifications")
                 .foregroundColor(Color(hex: "636366"))
                 .font(.system(size: 16))
                 .padding(.trailing, 40)
-                .padding(.leading, 20)
+                .padding(.leading, 15)
                 .padding(.bottom, 15)
             
             Rectangle()
                 .fill(Color(hex: "F2F2F7")) // Light gray background
-                .frame(width: 350, height: 130)
+                .frame(width: 360, height: 130)
                 .overlay(
                     VStack {
                         DatePicker("Start hour", selection: $selectedTime1, displayedComponents: .hourAndMinute)
