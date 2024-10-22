@@ -106,6 +106,7 @@ struct Notification: View {
             
         }
         .onAppear(perform: requestNotificationPermission) // Request permission on appear
+        .navigationBarBackButtonHidden(true)
     }
     
     private func createIntervalButton(title: String, subtitle: String) -> some View {

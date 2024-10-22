@@ -39,6 +39,7 @@ struct WaterIntakeView: View {
                         .padding(.trailing, 130)
         }
         .padding()
+        .navigationBarBackButtonHidden(true)
     }
 }
 
