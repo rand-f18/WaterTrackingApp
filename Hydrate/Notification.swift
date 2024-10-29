@@ -73,7 +73,7 @@ struct Notification: View {
             
             // First row of buttons
             HStack {
-                createIntervalButton(title: "15", subtitle: "Mins")
+                createIntervalButton(title: "1", subtitle: "Mins")
                 createIntervalButton(title: "30", subtitle: "Mins")
                 createIntervalButton(title: "60", subtitle: "Mins")
                 createIntervalButton(title: "90", subtitle: "Mins")
@@ -146,7 +146,7 @@ struct Notification: View {
 
         let intervalInMinutes: Int
         switch selectedInterval {
-        case "15 Mins": intervalInMinutes = 1
+        case "1 Mins": intervalInMinutes = 1
         case "30 Mins": intervalInMinutes = 30
         case "60 Mins": intervalInMinutes = 60
         case "90 Mins": intervalInMinutes = 90
